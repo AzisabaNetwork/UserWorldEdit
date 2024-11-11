@@ -1,0 +1,13 @@
+name: UserWorldEdit
+main: net.azisaba.userworldedit.UserWorldEdit
+version: 1.0-SNAPSHOT
+api-version: 1.13
+depend:
+  - StorageBox
+  - Vault
+  - WorldEdit
+commands:
+  set:
+    permission: userworldedit.command.set
+  line:
+    permission: userworldedit.command.line
